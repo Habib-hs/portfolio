@@ -41,7 +41,7 @@ const Work = () => {
         "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quisquam temporibus velit dignissimos.",
       status: 1,
       categories: [categories[5], categories[3]],
-      demoURL: "#demo",
+      demoURL: "https://www.youtube.com/watch?v=z9pzu8sGfhE&ab_channel=ThapaTechnical",
       codeURL: "#code",
     },
     {
@@ -50,7 +50,7 @@ const Work = () => {
       description: "Lorem, ipsum dolor sit amet consectetur adipisicing elit.",
       status: 2,
       categories: [categories[1], categories[2], categories[3]],
-      demoURL: "#demo",
+      demoURL: "https://www.youtube.com/watch?v=z9pzu8sGfhE&ab_channel=ThapaTechnical",
       codeURL: "#code",
     },
     {
