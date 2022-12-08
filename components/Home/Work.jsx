@@ -74,7 +74,7 @@ const Work = () => {
     },
     {
       thumbnail: "/images/work/work-5.jpg",
-      title: "hello",
+      title: "hello dear",
       description: "lorem",
       status: 2,
       categories: [categories[0], categories[2], categories[4]],
