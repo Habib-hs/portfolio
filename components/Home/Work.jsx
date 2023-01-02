@@ -9,16 +9,12 @@ import WorkCard from "../Customs/WorkCard";
 const Work = () => {
   const categories = [
     {
-      name: "React JS",
-      slug: "react-js",
-    },
-    {
-      name: "Java",
-      slug: "java",
-    },
-    {
       name: "Tailwind CSS",
       slug: "tailwind-css",
+    },
+    {
+      name: "React JS",
+      slug: "react-js",
     },
     {
       name: "Node JS",
@@ -27,11 +23,8 @@ const Work = () => {
     {
       name: "MERN Stack",
       slug: "mern-stack",
-    },
-    {
-      name: "JAM Stack",
-      slug: "jam-stack",
-    },
+    }
+  
   ];
   const works = [
     {
@@ -40,7 +33,7 @@ const Work = () => {
       description:
         "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quisquam temporibus velit dignissimos.",
       status: 1,
-      categories: [categories[5], categories[3]],
+      categories: [ categories[3]],
       demoURL: "https://www.youtube.com/watch?v=z9pzu8sGfhE&ab_channel=ThapaTechnical",
       codeURL: "#code",
     },
@@ -59,7 +52,7 @@ const Work = () => {
       description:
         "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quisquam temporibus velit dignissimos.",
       status: 2,
-      categories: [categories[0], categories[2], categories[4]],
+      categories: [categories[0], categories[2]],
       demoURL: "#demo",
       codeURL: "#code",
     },
@@ -68,7 +61,7 @@ const Work = () => {
       title: "Landing Page With CMS",
       description: "Lorem, ipsum dolor sit amet.",
       status: 3,
-      categories: [categories[0], categories[5]],
+      categories: [categories[0], categories[2]],
       demoURL: "#demo",
       codeURL: "#code",
     },
@@ -77,38 +70,39 @@ const Work = () => {
       title: "hello dear",
       description: "lorem",
       status: 2,
-      categories: [categories[0], categories[2], categories[4]],
+      categories: [categories[0], categories[2]],
       demoURL: "#demo",
       codeURL: "#code",
-    },
-    {
-      thumbnail: "/images/work/work-6.jpg",
-      title: "Single Page Static Website",
-      description: "Lorem, ipsum dolor sit amet consectetur adipisicing elit.",
-      status: 2,
-      categories: [categories[0], categories[2], categories[4]],
-      demoURL: "#demo",
-      codeURL: "#code",
-    },
-    {
-      thumbnail: "/images/work/work-7.jpg",
-      title: "Landing Page Using MUI",
-      description: "Lorem, ipsum dolor velit dignissimos.",
-      status: 3,
-      categories: [categories[0], categories[5]],
-      demoURL: "#demo",
-      codeURL: "#code",
-    },
-    {
-      thumbnail: "/images/work/work-8.jpg",
-      title: "Landing Page using tailwind",
-      description:
-        "Lorem amet consectetur adipisicing elit. Quisquam temporibus",
-      status: 2,
-      categories: [categories[0], categories[4]],
-      demoURL: "#demo",
-      codeURL: "#code",
-    },
+    }
+    // },
+    // {
+    //   thumbnail: "/images/work/work-6.jpg",
+    //   title: "Single Page Static Website",
+    //   description: "Lorem, ipsum dolor sit amet consectetur adipisicing elit.",
+    //   status: 2,
+    //   categories: [categories[0], categories[2], categories[4]],
+    //   demoURL: "#demo",
+    //   codeURL: "#code",
+    // },
+    // {
+    //   thumbnail: "/images/work/work-7.jpg",
+    //   title: "Landing Page Using MUI",
+    //   description: "Lorem, ipsum dolor velit dignissimos.",
+    //   status: 3,
+    //   categories: [categories[0], categories[5]],
+    //   demoURL: "#demo",
+    //   codeURL: "#code",
+    // },
+    // {
+    //   thumbnail: "/images/work/work-8.jpg",
+    //   title: "Landing Page using tailwind",
+    //   description:
+    //     "Lorem amet consectetur adipisicing elit. Quisquam temporibus",
+    //   status: 2,
+    //   categories: [categories[0], categories[4]],
+    //   demoURL: "#demo",
+    //   codeURL: "#code",
+    // },
   ];
 
   const [category, setCategory] = React.useState("all");

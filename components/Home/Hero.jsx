@@ -1,26 +1,36 @@
 import React from "react";
 
-import Section from "../Customs/Section";
 import Image from "next/image";
-import { HiDownload, HiEye } from "react-icons/hi"
+import { HiDownload, HiEye } from "react-icons/hi";
+import Section from "../Customs/Section";
+import { FaCodepen, FaFacebookF, FaGithub,FaLinkedin, FaHackerrank, FaInstagram } from "react-icons/fa"
+import Link from "next/link"
 
 const Hero = () => {
+  const socialLinks = [
+    { url: "#", icon: <FaHackerrank className='w-5 h-5' /> },
+    { url: "https://github.com/Habib-hs", icon: <FaGithub className='w-5 h-5' /> },
+    { url: "https://www.linkedin.com/in/md-habibullah-howlader/", icon: <FaLinkedin className='w-5 h-5' /> },
+    { url: "https://www.facebook.com/", icon: <FaFacebookF className='w-5 h-5' /> },
+    { url: "https://www.instagram.com/m_habibullah_hs/", icon: <FaInstagram className='w-5 h-5' /> },
+]
+
   return (
     <Section id="intro" className="relative !h-full !py-10 md:!py-20 overflow-x-clip">
       <div className="flex flex-row justify-between items-center flex-wrap-reverse p-2">
         <div className="flex-grow text-center lg:text-start  w-1/2">
           <h1 className="title-font sm:text-4xl text-2xl mb-2 font-bold ">
-            Hi 👋, I Am Veer
+            Hi 👋, I Am Md. Habibullah Howlader
             </h1>
             <h3 className="text-lg mt-1 opacity-90 font-normal capitalize ">
-          Web Developer and UI/UX Designer
+         Software Engineer 
             </h3>
             <div className="w-24 h-1 bg-primary bg-opacity-70 mt-6 mb-4">
               <div className="w-10 h-1 bg-primary"></div>
             </div>
 
           <p className="mb-6 mt-2 xl:w-[80%] leading-relaxed text-textSecondary font-medium dark:text-textDarkSecondary opacity-70 text-xs md:text-sm">
-            Lorem ipsum dolor, sit amet consectetur apsum animi! Minima modi pariatur, delectus asperiores aspernatur magnam voluptates soluta tempora accusantium?
+          I believe in smart and hard work. My aim is to work in a meaningful and challenging position that allows me to grow professionally and contribute to the advancement of the company as well as the society.
           </p>
           <div className="flex flex-wrap justify-center lg:justify-start">
             <div>
@@ -43,7 +53,19 @@ const Hero = () => {
               </button>
             </div>
           </div>
+
+          <div className='select-none capitalize flex my-4 items-center'>
+                        {socialLinks.map(({ icon, url }, index) => (
+                            <Link href={url} key={index}>
+                                <div className='border-primary border-2 mr-3 mb-3 rounded-full p-2 text-primary hover:bg-primary hover:text-white transition duration-300 cursor-pointer'>
+                                    {icon}
+                                </div>
+                            </Link>
+                        ))}
+                    </div>
         </div>
+
+
         <div className="mb-6 mx-auto text-center select-none relative">
           <Image
             className="object-cover object-center rounded-xl rounded-tl-[200px] z-10 "
@@ -53,6 +75,7 @@ const Hero = () => {
             src="/images/hero-img.jpg"
           />
         </div>
+
       </div>
 
     </Section>

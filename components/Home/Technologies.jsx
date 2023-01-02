@@ -1,11 +1,13 @@
 import React from 'react'
-import { FaCss3Alt, FaGit, FaHtml5, FaJava, FaJs, FaNodeJs, FaPython, FaReact } from "react-icons/fa"
+import { FaCss3Alt, FaGit, FaHtml5,  FaJs, FaNodeJs, FaPython, FaReact } from "react-icons/fa"
+import { DiMongodb} from "react-icons/di";
+import { CgCPlusPlus} from "react-icons/cg";
 
 const Technologies = () => {
   const data = [
     {
-      name: "Python",
-      icon: <FaPython className="w-full h-full rounded-full cursor-pointer text-primary group-hover:text-white"/>
+      name: "C Plus Plus",
+      icon: <CgCPlusPlus className="w-full h-full rounded-full cursor-pointer text-primary group-hover:text-white"/>
     },
     {
       name: "Node JS",
@@ -24,8 +26,8 @@ const Technologies = () => {
       icon: <FaJs className="w-full h-full rounded-full cursor-pointer text-primary group-hover:text-white"/>
     },
     {
-      name: "Java",
-      icon: <FaJava className="w-full h-full rounded-full cursor-pointer text-primary group-hover:text-white"/>
+      name: "MongoDB",
+      icon: <DiMongodb className="w-full h-full rounded-full cursor-pointer text-primary group-hover:text-white"/>
     },
     {
       name: "HTML",

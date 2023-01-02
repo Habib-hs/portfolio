@@ -18,7 +18,8 @@ const Contact = () => {
             if (!field.name) return;
             formData[field.name] = field.value;
         })
-        alert(`name : ${formData.name} \nemail : ${formData.email} \nmessage : ${formData.message} `)
+       // alert(`name : ${formData.name} \nemail : ${formData.email} \nmessage : ${formData.message} `)
+       alert(`your mail has been sent.`)
     }
 
     return (
@@ -35,7 +36,7 @@ const Contact = () => {
                         marginHeight={0}
                         marginWidth={0}
                         scrolling="no"
-                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d448181.163741622!2d76.81306442366602!3d28.64727993557044!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390cfd5b347eb62d%3A0x37205b715389640!2sDelhi!5e0!3m2!1sen!2sin!4v1662188044286!5m2!1sen!2sin"
+                        src="https://www.google.com/maps/d/u/0/viewer?mid=1B1lAsUpYFg82Je7XN1_cxRPf1UU&hl=en_US&ll=23.808565190640483%2C90.44861034636834&z=13"
                         style={{ filter: "grayscale(1) contrast(1.2) opacity(0.85)" }}
                         />
                         </div>
@@ -45,7 +46,7 @@ const Contact = () => {
                                 ADDRESS
                             </h2>
                             <p className="mt-1">
-                                Delhi, India
+                                Dhanmondi, Dhaka, Bangladesh
                             </p>
                         </div>
                         <div className="lg:w-1/2 px-4 mt-4 lg:mt-0">
@@ -53,13 +54,13 @@ const Contact = () => {
                             <h2 className="title-font font-semibold  tracking-widest">
                                 EMAIL
                             </h2>
-                            <a className="text-primary leading-relaxed">exmaple@email.com</a>
+                            <a className="text-primary leading-relaxed">habibullah.diu@gmail.com</a>
                             </div>
                             <div>
                             <h2 className="title-font font-semibold  tracking-widest mt-4">
                                 PHONE
                             </h2>
-                            <p className="leading-relaxed">+91 00000 00000</p>
+                            <p className="leading-relaxed">+880 1923 690376</p>
                             </div>
                         </div>
                     </div>
@@ -111,7 +112,7 @@ const Contact = () => {
                                 className="w-full dark:bg-paperDark bg-paper rounded-xl border-primary/20 focus:border-primary/80 border-2 focus:primary focus:ring-2 focuprimary h-32 text-xs outline-none py-1 px-3 resize-none leading-6 transition-colors duration-200 ease-in-out"
                             />
                         </div>
-                        <button type="submit" disabled={!email || !name || !message} className={`disabled:bg-paper dark:disabled:bg-paperDark text-white text-center bg-primary hover:bg-secondary focus:outline-none outline-none font-medium rounded-lg text-sm p-1 px-1.5 m-1 md:px-3 md:py-2 transition-all duration-300`}>Submit</button>
+                        <button  type="submit" disabled={!email || !name || !message} className={`disabled:bg-paper dark:disabled:bg-paperDark text-white text-center bg-primary hover:bg-secondary focus:outline-none outline-none font-medium rounded-lg text-sm p-1 px-1.5 m-1 md:px-3 md:py-2 transition-all duration-300`}>Submit</button>
                     </form>
                 </div>
             </div>

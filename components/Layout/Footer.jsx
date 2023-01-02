@@ -113,7 +113,7 @@ const Footer = () => {
       <div className="max-w-[1140px] bg-opacity-75 z-30 mx-auto">
         <div className="container mx-auto py-4 px-5 flex flex-wrap flex-col justify-between capitalize md:font-semibold sm:flex-row">
           <p className="text-gray-400 text-sm text-center flex items-center justify-center">
-            Created With <span className='text-red-600 text-lg mx-1.5'>♥</span> by Ashish
+            Created With <span className='text-red-600 text-lg mx-1.5'>♥</span> by Habib
           </p>
           <p className="text-gray-400 text-sm text-center sm:text-left">
             Images are from <a href="https://www.unsplash.com" className='text-primary ' target="_blank"> unsplash </a>

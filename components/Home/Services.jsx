@@ -6,14 +6,25 @@ import { HiOutlinePencilAlt, HiOutlineChartBar, HiOutlineMoon, HiOutlineDeviceMo
 
 const Services = () => {
     const data = [
-        { title: "Creative Designs", description: "In publishing and graphic design, Lorem ipsum is a placee without them.", icon: <HiOutlinePencilAlt className="w-6 h-6 stroke-2" /> },
-        { title: "Responsiveness", description: "hing and graphic design,hir text commonly use on the platform.", icon: <HiOutlineChartBar className="w-6 h-6 stroke-2" /> },
-        { title: "Responsiveness", description: "checking and text commonly used to demon.", icon: <HiOutlineDeviceMobile className="w-6 h-6 stroke-2" /> },
-        { title: "Dark Mode", description: "Use the text generator to create your own text.", icon: <HiOutlineMoon className="w-6 h-6 stroke-2" /> }
+        { title: "Problem Solving", description: "Solved more than 400 problems on different online judges", icon: <HiOutlinePencilAlt className="w-6 h-6 stroke-2" /> },
+
+        { title: "Design", description: "HTML5, CSS3, Bootstrap, Taliwind Css, React", icon: <HiOutlineChartBar className="w-6 h-6 stroke-2" /> },
+        
+        { title: "Development", description: "Node.js, Express.js, MongoDB, Moongoose", icon: <HiOutlineDeviceMobile className="w-6 h-6 stroke-2" /> },
+
+        { title: "Research", description: "Have a sound knowledge in research field (Machine Learning)", icon: <HiOutlineMoon className="w-6 h-6 stroke-2" /> },
+
+        { title: "Education", description: "Bacelor of Science  - Daffodil International University - CGPA : 3.94 out of 4", icon: <HiOutlinePencilAlt className="w-6 h-6 stroke-2" /> },
+
+        { title: "Programming Language", description: "comfortable with C, C++, Javascript, Java, python", icon: <HiOutlineChartBar className="w-6 h-6 stroke-2" /> },
+
+        { title: "Team Member", description: "Did 10+ projects in University as a team member", icon: <HiOutlineDeviceMobile className="w-6 h-6 stroke-2" /> },
+
+        { title: "Volunteering", description: "I organize a lot of seminars, programming competition and many events during university life", icon: <HiOutlineMoon className="w-6 h-6 stroke-2" /> }
     ]
 
     return (
-        <Section id="services" title="Services" description="Lorem ipsum dolor sit adipisicing elit. Facere, quos! Et asperiores ut dolorem dignissimos possimus, molestiae nemo." subtitle="what I can do for you ?">
+        <Section id="services" title="Skills" description="Lorem ipsum dolor sit adipisicing elit. Facere, quos! Et asperiores ut dolorem dignissimos possimus, molestiae nemo." subtitle="what I can do for you ?">
             <div className="flex flex-wrap justify-center items-center">
                 {data.map(({ title, description, icon }, index) => (
                     <ServiceCard key={index} icon={icon} title={title} description={description} />
