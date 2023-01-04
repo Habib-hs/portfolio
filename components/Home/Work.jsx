@@ -9,8 +9,8 @@ import WorkCard from "../Customs/WorkCard";
 const Work = () => {
   const categories = [
     {
-      name: "Tailwind CSS",
-      slug: "tailwind-css",
+      name: "JavaScript",
+      slug: "JavaScript",
     },
     {
       name: "React JS",
@@ -27,53 +27,114 @@ const Work = () => {
   
   ];
   const works = [
+
     {
-      thumbnail: "/images/work/work-1.jpg",
-      title: "MockUp Mobile App",
-      description:
-        "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quisquam temporibus velit dignissimos.",
-      status: 1,
-      categories: [ categories[3]],
-      demoURL: "https://www.youtube.com/watch?v=z9pzu8sGfhE&ab_channel=ThapaTechnical",
-      codeURL: "#code",
+      thumbnail: "/images/work/work-2.jpg",
+      title: "Guess the Number",
+      description: "Lorem, ipsum dolor sit amet consectetur adipisicing elit.",
+      status: 2,
+      categories: [categories[0]],
+      demoURL: "https://js-game-guess-the-number.netlify.app/",
+      codeURL: "https://github.com/Habib-hs/Guess-the-Number",
     },
     {
       thumbnail: "/images/work/work-2.jpg",
-      title: "Landing Page Using Tailwind CSS",
+      title: "Pig Number",
       description: "Lorem, ipsum dolor sit amet consectetur adipisicing elit.",
       status: 2,
-      categories: [categories[1], categories[2], categories[3]],
-      demoURL: "https://www.youtube.com/watch?v=z9pzu8sGfhE&ab_channel=ThapaTechnical",
-      codeURL: "#code",
+      categories: [categories[0]],
+      demoURL: "https://simple-pig-game.netlify.app/",
+      codeURL: "https://github.com/Habib-hs/Pig-Game",
     },
     {
-      thumbnail: "/images/work/work-3.jpg",
-      title: "Website Design Using Tailwind CSS",
+      thumbnail: "/images/work/work-2.jpg",
+      title: "Exchange Rate Calculator",
+      description: "Lorem, ipsum dolor sit amet consectetur adipisicing elit.",
+      status: 2,
+      categories: [categories[0]],
+      demoURL: "https://expense-tracker-b5ea.vercel.app/",
+      codeURL: "https://github.com/Habib-hs/exchangeRate",
+    },
+    {
+      thumbnail: "/images/work/work-2.jpg",
+      title: "Meal Finder",
+      description: "Lorem, ipsum dolor sit amet consectetur adipisicing elit.",
+      status: 2,
+      categories: [categories[0]],
+      demoURL: "https://meal-finder-dun.vercel.app/",
+      codeURL: "https://github.com/Habib-hs/Meal-Finder",
+    },
+    {
+      thumbnail: "/images/work/work-2.jpg",
+      title: "Calculator",
+      description: "Lorem, ipsum dolor sit amet consectetur adipisicing elit.",
+      status: 2,
+      categories: [categories[0]],
+      demoURL: "https://normal-calculator-js.netlify.app/",
+      codeURL: "https://github.com/Habib-hs/Calculator",
+    },
+ 
+    {
+      thumbnail: "/images/work/work-1.jpg",
+      title: "Filtering All Products",
       description:
         "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quisquam temporibus velit dignissimos.",
       status: 2,
-      categories: [categories[0], categories[2]],
-      demoURL: "#demo",
-      codeURL: "#code",
+      categories: [ categories[1]],
+      demoURL: "https://react-simple-filter.netlify.app/",
+      codeURL: "https://github.com/Habib-hs/react-filter-app",
+    },
+    {
+      thumbnail: "/images/work/work-1.jpg",
+      title: "React Todo List",
+      description:
+        "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quisquam temporibus velit dignissimos.",
+      status: 2,
+      categories: [ categories[1]],
+      demoURL: "https://react-simple-todo-lists.netlify.app/",
+      codeURL: "https://github.com/Habib-hs/todo-list",
+    },
+    {
+      thumbnail: "/images/work/work-1.jpg",
+      title: "Covid Tracker",
+      description:
+        "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quisquam temporibus velit dignissimos.",
+      status: 2,
+      categories: [ categories[1]],
+      demoURL: "https://tracker-app-covid.netlify.app/",
+      codeURL: "https://github.com/Habib-hs/covid-tracker",
+    },
+    
+    {
+      thumbnail: "/images/work/work-1.jpg",
+      title: "Movie Site",
+      description:
+        "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quisquam temporibus velit dignissimos.",
+      status: 2,
+      categories: [ categories[1]],
+      demoURL: "https://netflix-movie-site-react.netlify.app/",
+      codeURL: "https://github.com/Habib-hs/react-movie-site",
     },
     {
       thumbnail: "/images/work/work-4.jpg",
-      title: "Landing Page With CMS",
-      description: "Lorem, ipsum dolor sit amet.",
-      status: 3,
-      categories: [categories[0], categories[2]],
-      demoURL: "#demo",
-      codeURL: "#code",
+      title: "Amazona",
+      description:
+        "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quisquam temporibus velit dignissimos.",
+      status: 2,
+      categories: [ categories[3]],
+      demoURL: "https://amazona.onrender.com/",
+      codeURL: "https://github.com/Habib-hs/ecommerce-backend",
     },
     {
-      thumbnail: "/images/work/work-5.jpg",
-      title: "hello dear",
-      description: "lorem",
+      thumbnail: "/images/work/work-7.jpg",
+      title: "Book Shop",
+      description:
+        "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quisquam temporibus velit dignissimos.",
       status: 2,
-      categories: [categories[0], categories[2]],
-      demoURL: "#demo",
-      codeURL: "#code",
-    }
+      categories: [ categories[3]],
+      demoURL: "https://bookshop.onrender.com/",
+      codeURL: "https://github.com/Habib-hs/ecommerce-front",
+    },
     // },
     // {
     //   thumbnail: "/images/work/work-6.jpg",

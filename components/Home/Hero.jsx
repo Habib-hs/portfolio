@@ -1,10 +1,10 @@
 import React from "react";
 
 import Image from "next/image";
+import Link from "next/link";
+import { FaFacebookF, FaGithub, FaHackerrank, FaInstagram, FaLinkedin } from "react-icons/fa";
 import { HiDownload, HiEye } from "react-icons/hi";
 import Section from "../Customs/Section";
-import { FaCodepen, FaFacebookF, FaGithub,FaLinkedin, FaHackerrank, FaInstagram } from "react-icons/fa"
-import Link from "next/link"
 
 const Hero = () => {
   const socialLinks = [
@@ -72,7 +72,7 @@ const Hero = () => {
             alt="hero"
             width={550}
             height={400}
-            src="/images/hero-img.jpg"
+            src="/images/abc.jpg"
           />
         </div>
 

@@ -45,7 +45,7 @@ const Technologies = () => {
           My Advantages
         </h2>
         <p className='text-sm w-[80%] mx-auto text-textSecondary dark:text-textDarkSecondary font-medium'>
-          Technologies that i have learnt and have an experience of over 5 years
+          Technologies that i have learnt and have an experience 
         </p>
       </div>
       <div className="mx-auto flex md:flex-row-reverse flex-col-reverse justify-center items-center">

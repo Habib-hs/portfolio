@@ -23,7 +23,7 @@ const Contact = () => {
     }
 
     return (
-        <Section id="contact" title="Contact Me" subtitle="connect with me" description="Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolore nihil fugit pariatur nam eos!">
+        <Section id="contact" title="Contact Me" subtitle="connect with me" description=" You can talk to me by flling this form. I will try my best to get back to you.">
             <div className=" mx-auto flex lg:flex-nowrap flex-wrap">
                 <div className="lg:w-2/3 w-full shadow-normal flex-1 mx-auto rounded-lg lg:mr-10 overflow-hidden p-4 pt-56 flex items-end justify-start relative">
                     <div className='mx-auto'>

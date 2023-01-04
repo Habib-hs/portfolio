@@ -8,14 +8,6 @@ import { FaCodepen, FaFacebookF, FaGithub, FaHackerrank, FaInstagram } from "rea
 // I love developing applications that positively impact the world with the help of new emerging technologies. I am keen on Web Application Development, Blockchains, Machine Learning, Data Science, and Robotics. I have worked on various RESTful APIs, Microservices, and Data Analytics projects. I am a forever student and eager to learn and implement new things. <br /><br />
 
 const About = () => {
-    const socialLinks = [
-        { url: "#", icon: <FaHackerrank className='w-5 h-5' /> },
-        { url: "#", icon: <FaGithub className='w-5 h-5' /> },
-        { url: "#", icon: <FaCodepen className='w-5 h-5' /> },
-        { url: "#", icon: <FaFacebookF className='w-5 h-5' /> },
-        { url: "#", icon: <FaInstagram className='w-5 h-5' /> },
-    ]
-
     return (
         <Section id="about" className="!relative">    
             <div className='flex sm:flex-row justify-center flex-col px-4'>
@@ -42,33 +34,20 @@ const About = () => {
                     </h1>
                     <p className="leading-relaxed text-textSecondary text-xs md:text-sm dark:text-textDarkSecondary">
                     Hello, my name is Md Habibullah Howlader, and I am a Software Enthusiast! 
-For the past five years, I have worked on projects across various domains, including Banking, Finance, and BioInformatics in software engineering. I hold solid professional experience working with teams across the globe.  <br /><br />
+For the past four years, In university life I have worked on different projects and learn the core and most important core concepts about  software engineering..  <br /><br /> 
 
-In my experiences, I worked as a Software Engineer at Pierian and for Oracle as a Software Consultant under the Financial Services Global Business Unit. I did Customization, Implementation, and Support to Oracle's core banking software Flexcube. I have been a part of the product development team delivering high-quality software following all standard practices, including agile. <br /><br />
+I have completed my B.sc in CSE degree from Daffodil International University. In university life, I have three years of experience in Programming. My keen interest in Competitive Programming has enabled me to develop a good knowledge of Software Design and Development. However, I can assure you that I am a quick learner, adaptive well as and energetic person. <br /><br />
 
 
 I believe that for every problem, there exists a solution. So I always try to understand the issue properly and try to visualize it using drawings and flowcharts. I believe that knowing the problem well is essential, and my first objective is always to understand the problem and then figure out the solution. <br /><br />
 
-I have worked on various technologies and frameworks like NodeJs, NestJs, SpringBoot, MVC, Hibernate, JavaEE, Python, Angular, and Groovy-on-Grails. My interests include coding, application programming, fitness, and financial literacy. <br /><br />
+ My interests include coding, application programming, fitness, and financial literacy. I love study on different books on different topics.I love to know about technologies and try to keep myself updated.<br /><br />
 
 Thank you so much for your time! 
-Please feel free to read more about my projects and share your feedback. <br /><br />
-
-
-
-                        I am approximately on every social media platform. You can also mail me anytime, I will reply within 24 hours <br />
+Please feel free to read more about my projects and share your feedback.
+I am approximately on every social media platform. You can also mail me anytime, I will reply within 24 hours <br />
                     </p>
 
-                    <div className='select-none capitalize flex my-4'>
-                        {socialLinks.map(({ icon, url }, index) => (
-                            <Link href={url} key={index}>
-                                <div className='border-primary border-2 mr-3 mb-3 rounded-full p-2 text-primary hover:bg-primary hover:text-white transition duration-300 cursor-pointer'>
-                                    {icon}
-                                </div>
-                            </Link>
-                        ))}
-                    </div>
-                    
                 </div>
 
             </div>

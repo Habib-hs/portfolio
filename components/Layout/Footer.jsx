@@ -28,18 +28,7 @@ const Footer = () => {
         name: "Link",
         url:"Link",
       },
-      {
-        name: "Link",
-        url:"Link",
-      },
-      {
-        name: "Link",
-        url:"Link",
-      },
-      {
-        name: "Link",
-        url:"Link",
-      },
+
     ],
     "category 3": [
       {
@@ -50,14 +39,7 @@ const Footer = () => {
         name: "Link",
         url:"Link",
       },
-      {
-        name: "Link",
-        url:"Link",
-      },
-      {
-        name: "Link",
-        url:"Link",
-      },
+
     ],
     "category 4": [
       {
@@ -68,10 +50,7 @@ const Footer = () => {
         name: "Link",
         url:"Link",
       },
-      {
-        name: "Link",
-        url:"Link",
-      },
+   
     ],
   }
   return (
@@ -116,9 +95,7 @@ const Footer = () => {
             Created With <span className='text-red-600 text-lg mx-1.5'>♥</span> by Habib
           </p>
           <p className="text-gray-400 text-sm text-center sm:text-left">
-            Images are from <a href="https://www.unsplash.com" className='text-primary ' target="_blank"> unsplash </a>
-            and
-            Illustration are from <a href="https://www.freepik.com" className='text-primary ' target="_blank"> freepik </a>
+          
           </p>
         </div>
       </div>

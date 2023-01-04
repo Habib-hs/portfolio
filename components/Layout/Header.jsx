@@ -13,7 +13,6 @@ const Header = (props) => {
         { name: "About", url: "#about", icon: <HiOutlineUser className='w-5 h-5' /> },
         { name: "Skills", url: "#services", icon: <HiOutlineLightningBolt className='w-5 h-5' /> },
         { name: "Works", url: "#work", icon: <HiOutlineCode className='w-5 h-5' /> },
-        { name: "Blog", url: "#blog", icon: <HiOutlineDocumentText className='w-5 h-5' /> },
         { name: "Contact", url: "#contact", icon: <HiOutlineMail className='w-5 h-5' /> }
     ]
     const active = (url) => { return router.asPath == url }
